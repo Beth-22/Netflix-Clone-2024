@@ -1,0 +1,81 @@
+/* Make sure this class controls the background */
+.header_outer_container {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.5s ease;
+    background-color: rgba(20, 20, 20, 0.95); /* Dark background */
+  }
+  
+  /* Header content layout */
+  .header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 2%;
+    color: white;
+  }
+  
+  /* Left logo and nav */
+  .header_left {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Netflix logo image */
+  .logo {
+    width: 100px;
+    margin-right: 1rem;
+  }
+  
+  /* Nav menu items */
+  .nav_menu {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  .nav_menu li {
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for nav items */
+  .nav_menu li:hover {
+    text-decoration: underline;
+  }
+  
+  /* Right side icons and avatar */
+  .header_right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .icon {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  /* Responsive: hide nav menu on mobile */
+  @media (max-width: 768px) {
+    .nav_menu {
+      display: none;
+    }
+  
+    .logo {
+      width: 80px;
+    }
+  }
+  
