@@ -1,14 +1,14 @@
-/* Make sure this class controls the background */
+
 .header_outer_container {
     position: sticky;
     top: 0;
     width: 100%;
     z-index: 1000;
     transition: background-color 0.5s ease;
-    background-color: rgba(20, 20, 20, 0.95); /* Dark background */
+    background-color: rgba(20, 20, 20, 0.95); /* Dark */
   }
   
-  /* Header content layout */
+  
   .header_container {
     display: flex;
     justify-content: space-between;
@@ -18,19 +18,19 @@
     color: white;
   }
   
-  /* Left logo and nav */
+  
   .header_left {
     display: flex;
     align-items: center;
   }
   
-  /* Netflix logo image */
+  
   .logo {
     width: 100px;
     margin-right: 1rem;
   }
   
-  /* Nav menu items */
+  
   .nav_menu {
     display: flex;
     list-style: none;
@@ -43,12 +43,10 @@
     cursor: pointer;
   }
   
-  /* Hover effect for nav items */
   .nav_menu li:hover {
     text-decoration: underline;
   }
   
-  /* Right side icons and avatar */
   .header_right {
     display: flex;
     align-items: center;
