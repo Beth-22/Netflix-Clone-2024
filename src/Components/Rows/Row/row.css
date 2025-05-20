@@ -1,11 +1,9 @@
-/* General row container */
 .row {
     color: #fff;
     margin-left: 20px;
     margin-top: 30px;
   }
   
-  /* Title of each row */
   .row_title {
     font-size: 1.8rem;
     font-weight: 600;
@@ -13,20 +11,18 @@
     margin-bottom: 10px;
   }
   
-  /* Container that holds all the movie posters */
   .row_posters {
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
     padding: 20px;
-    scrollbar-width: none; /* Firefox */
+    scrollbar-width: none; 
   }
   
   .row_posters::-webkit-scrollbar {
-    display: none; /* Chrome, Safari */
+    display: none; 
   }
   
-  /* Default poster size */
   .row_poster {
     width: 100%;
     max-height: 120px;
@@ -38,7 +34,6 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
   }
   
-  /* Larger posters for featured rows */
   .row_posterLarge {
     max-height: 250px;
   }
@@ -48,7 +43,6 @@
     z-index: 10;
   }
   
-  /* Video or error message container */
   .row_trailer {
     margin-top: 20px;
     width: 100vw;
@@ -59,14 +53,14 @@
   }
   .row_trailer_fullscreen {
     width: 100vw;
-    margin-left: calc(-1 * (20px)); /* cancels the .row margin-left */
+    margin-left: calc(-1 * (20px)); 
     position: relative;
     z-index: 999;
   }
   
   .youtube_iframe iframe {
     width: 100vw !important;
-    height: 500px !important; /* Or whatever height you need */
+    height: 500px !important; 
     border: none;
   }
    
@@ -82,7 +76,6 @@
     animation: fadeIn 0.3s ease-in-out;
   }
   
-  /* Smooth fade-in animation for error */
   @keyframes fadeIn {
     from {
       opacity: 0;
