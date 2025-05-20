@@ -4,42 +4,6 @@ import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
-/*
-const Footer = () => {
-  return (
-    <footer className="footer_container">
-      <div className="footer_links">
-        <ul>
-          <li>FAQ</li>
-          <li>Help Center</li>
-          <li>Account</li>
-          <li>Media Center</li>
-        </ul>
-        <ul>
-          <li>Investor Relations</li>
-          <li>Jobs</li>
-          <li>Ways to Watch</li>
-          <li>Terms of Use</li>
-        </ul>
-        <ul>
-          <li>Privacy</li>
-          <li>Cookie Preferences</li>
-          <li>Corporate Information</li>
-          <li>Contact Us</li>
-        </ul>
-        <ul>
-          <li>Speed Test</li>
-          <li>Legal Notices</li>
-          <li>Only on Netflix</li>
-        </ul>
-      </div>
-      <p className="footer_note">© {new Date().getFullYear()} Netflix Clone</p>
-    </footer>
-  );
-};
-
-export default Footer;
-*/
 
 const Footer = () => {
   return (
