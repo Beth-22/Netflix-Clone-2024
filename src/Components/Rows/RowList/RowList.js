@@ -1,6 +1,6 @@
 import React from "react";
-import Row from "../Row/Row"; // Make sure this points to your Row.js file
-import requests from "../../../utils/requests"; // Your TMDB API endpoints
+import Row from "../Row/Row"; 
+import requests from "../../../utils/requests"; 
 
 const RowList = () => {
   return (
